@@ -15,6 +15,8 @@ import CardGroup from './components/CardGroup/CardGroup';
 import {Spinner} from 'react-bootstrap';
 import Head from './components/Head/Head';
 import Pricing from './components/Pricing/Pricing';
+import Rechart from './components/Rechart/Rechart';
+import SpecialChart from './components/SpecialChart/SpecialChart';
 
 
 const districtStyle={
@@ -59,8 +61,8 @@ function App() {
             <Spinner animation="border" variant="success" /> */}
          <Head></Head>
         <Pricing></Pricing>
-       
-
+       <Rechart></Rechart>
+            <SpecialChart></SpecialChart>
         </div>
     )
 }
