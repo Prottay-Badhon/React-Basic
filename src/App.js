@@ -11,7 +11,10 @@ import { useEffect } from 'react';
 import Watch from './components/Watch/Watch';
 import Display from './components/Display/Display';
 import Cosmetics from './components/Cosmetics/Cosmetics';
-
+import CardGroup from './components/CardGroup/CardGroup';
+import {Spinner} from 'react-bootstrap';
+import Head from './components/Head/Head';
+import Pricing from './components/Pricing/Pricing';
 
 
 const districtStyle={
@@ -46,12 +49,18 @@ function App() {
   // );
     return(
         <div className="App">
-            <District name="Noakhali" special="Bivag"></District>
+            {/* <District name="Noakhali" special="Bivag"></District>
             <District></District>
             <District></District>
             <LoadPost></LoadPost>
             <Watch></Watch>
-            <Cosmetics></Cosmetics>
+            <Cosmetics></Cosmetics> */}
+            {/* <CardGroup></CardGroup>
+            <Spinner animation="border" variant="success" /> */}
+         <Head></Head>
+        <Pricing></Pricing>
+       
+
         </div>
     )
 }
